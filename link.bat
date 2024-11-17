@@ -22,6 +22,6 @@ if exist "%LINK%" (
 
 :: Create the symbolic link
 echo Creating symbolic link from %TARGET% to %LINK%
-mklink "%LINK%" "%TARGET%"
+mklink /h "%LINK%" "%TARGET%"
 
 pause
