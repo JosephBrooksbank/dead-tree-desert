@@ -10,8 +10,8 @@ set FILE_NAME=[entity=dead-tree-desert].zip
 set FACTORIO_SAVE_DIR=%APPDATA%\Factorio\saves
 
 :: Full path to the target and link
-set TARGET=%CURRENT_DIR%\%FILE_NAME%
-set LINK=%FACTORIO_SAVE_DIR%\%FILE_NAME%
+set LINK=%CURRENT_DIR%\%FILE_NAME%
+set TARGET=%FACTORIO_SAVE_DIR%\%FILE_NAME%
 
 
 :: Check if the symbolic link already exists and remove it
